@@ -12,6 +12,7 @@ public class Database {
      * Function returns if exact account information already exists.
      * @param userID
      * @param password
+     * @return
      */
     public static boolean writeAccountInfo(String userID, String password) {
         userID = userID.trim();

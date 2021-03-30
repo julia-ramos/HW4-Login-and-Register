@@ -27,6 +27,7 @@ public class RequestLogin extends GameRequest {
     private ResponseLogin responseLogin;
 
     public RequestLogin() {
+        Log.printf("Login request detected");
         responses.add(responseLogin = new ResponseLogin());
     }
 

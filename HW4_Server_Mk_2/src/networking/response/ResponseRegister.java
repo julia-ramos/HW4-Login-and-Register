@@ -1,8 +1,13 @@
 package networking.response;
 
 // Other Imports
+import core.GameServer;
 import metadata.Constants;
+import model.Player;
 import utility.GamePacket;
+import utility.Log;
+
+import java.util.List;
 
 /**
  * The ResponseRegister class contains information about the authentication
