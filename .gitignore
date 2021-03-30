@@ -94,3 +94,4 @@ HW4_Client/Temp/UnityTempFile-c6b8fa657708dc9479f4d7280b3de85b
 HW4_Client/Library/ScriptAssemblies/Assembly-CSharp.dll
 *.meta
 *.xml
+*.class

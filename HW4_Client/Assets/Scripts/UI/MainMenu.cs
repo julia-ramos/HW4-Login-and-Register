@@ -132,6 +132,23 @@ public class MainMenu : MonoBehaviour
 		}
 	}
 
+public void OnResponseRegister(ExtendedEventArgs eventArgs)
+	{
+		ResponseLoginEventArgs args = eventArgs as ResponseLoginEventArgs;
+		if (args.status == 0)
+		{
+			messageBoxMsg.text = "Registration Successful!";
+			messageBox.SetActive(true);
+			registerMenuPanel.SetActive(false);
+			loginMenuPanel.SetActive(true);
+		}
+		else
+		{
+			messageBoxMsg.text = "Registration failed. Account may already exist.";
+			messageBox.SetActive(true);
+		}
+	}
+
 	#region RootMenu
 	public void OnHotseatClick()
 	{
