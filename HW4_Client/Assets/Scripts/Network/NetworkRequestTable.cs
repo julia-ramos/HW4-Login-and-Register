@@ -10,6 +10,8 @@ public class NetworkRequestTable {
 	public static void init() {
 		requestTable = new Dictionary<short, Type>();
 		add(Constants.CMSG_JOIN, "RequestJoin");
+		add(Constants.CMSG_LOGIN, "RequestLogin");
+		add(Constants.CMSG_REGISTER, "RequestRegister");
 		add(Constants.CMSG_LEAVE, "RequestLeave");
 		add(Constants.CMSG_SETNAME, "RequestSetName");
 		add(Constants.CMSG_READY, "RequestReady");

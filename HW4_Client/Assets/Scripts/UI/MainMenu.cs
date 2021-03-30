@@ -124,6 +124,12 @@ public class MainMenu : MonoBehaviour
 	}
 
 	public void OnRegisterRegisterClick() {
+		Debug.Log("Send RegisterReq");
+		bool registered = networkManager.SendRegisterRequest(userID, password);
+		if (!registered) {
+			messageBoxMsg.text = "Unable to Register.";
+			messageBox.SetActive(true);
+		}
 	}
 
 	#region RootMenu

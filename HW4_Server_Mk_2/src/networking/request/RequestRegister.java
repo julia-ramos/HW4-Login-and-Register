@@ -2,10 +2,18 @@ package networking.request;
 
 // Java Imports
 import java.io.IOException;
-import networking.response.ResponseRegister;
-import utility.DataReader;
 
 // Other Imports
+import core.GameServer;
+import core.NetworkManager;
+import model.Player;
+import networking.response.ResponseRegister;
+import networking.response.ResponseName;
+import utility.DataReader;
+import database.Database;
+import utility.Log;
+
+import static database.Database.authenticate;
 import static database.Database.writeAccountInfo;
 
 public class RequestRegister extends GameRequest {
@@ -13,6 +21,7 @@ public class RequestRegister extends GameRequest {
     // Data
     private String userID;
     private String password;
+    private short status;
 
     // Responses
     private ResponseRegister responseRegister;
@@ -29,15 +38,25 @@ public class RequestRegister extends GameRequest {
     public void parse() throws IOException {
         userID = DataReader.readString(dataInput).trim();
         password = DataReader.readString(dataInput).trim();
+        Log.printf("User is trying to register with the account info: userID = " + userID + ", password = " + password);
     }
 
     /**
-     * Writes unique account information to the text file.
+     * Authenticates the given userID and password using Database
      * @throws Exception
      */
     @Override
     public void doBusiness() throws Exception {
-        writeAccountInfo(userID, password);
-        // TODO: do stuff after successful writing account information to the file
+        boolean isRegistered = writeAccountInfo(userID, password);
+
+        if(isRegistered) {
+            Log.printf("The user has successfully been registered");
+            responseRegister.setStatus((short) 0);
+
+        } else {
+            Log.printf("User has not been registered.");
+            responseRegister.setStatus((short) 1);
+        }
     }
+
 }

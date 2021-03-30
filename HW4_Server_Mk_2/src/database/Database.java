@@ -13,20 +13,24 @@ public class Database {
      * @param userID
      * @param password
      */
-    public static void writeAccountInfo(String userID, String password) {
+    public static boolean writeAccountInfo(String userID, String password) {
         try {
             if (authenticate(userID, password) == true) {
                 System.out.println("This account already exists!");
-                return;
-            } else {
-                FileWriter writer = new FileWriter(textFile, true);
-                BufferedWriter bufferedWriter = new BufferedWriter(writer);
-
-                bufferedWriter.write(userID + " " + password);
-                bufferedWriter.newLine();
-                bufferedWriter.close();
+                return false;
             }
-        } catch (IOException e) { e.printStackTrace(); }
+            FileWriter writer = new FileWriter(textFile, true);
+            BufferedWriter bufferedWriter = new BufferedWriter(writer);
+
+            bufferedWriter.write(userID + " " + password);
+            bufferedWriter.newLine();
+            bufferedWriter.close();
+            return true;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
     /**

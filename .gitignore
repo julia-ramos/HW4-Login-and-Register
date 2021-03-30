@@ -89,3 +89,8 @@ HW4_Server_Mk_2/.idea/workspace.xml
 HW4_Server_Mk_2/out/production/WoB_Server_Basic/META-INF/WoB_Server_Basic.kotlin_module
 *.xml
 *.xml
+HW4_Client/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+HW4_Client/Temp/UnityTempFile-c6b8fa657708dc9479f4d7280b3de85b
+HW4_Client/Library/ScriptAssemblies/Assembly-CSharp.dll
+*.meta
+*.xml

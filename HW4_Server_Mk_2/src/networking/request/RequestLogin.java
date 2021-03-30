@@ -49,12 +49,10 @@ public class RequestLogin extends GameRequest {
         boolean isAuthenticated = authenticate(userID, password);
 
         if(isAuthenticated) {
-            // TODO: Do stuff after successful authentication
             Log.printf("The user has successfully been authenticated. Login successful");
             responseLogin.setStatus((short) 0);
 
         } else {
-            // TODO: Do stuff after failed authentication
             Log.printf("User has not been authenticated. Login failed.");
             responseLogin.setStatus((short) 1);
         }
