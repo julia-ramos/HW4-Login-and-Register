@@ -27,6 +27,7 @@ public class RequestRegister extends GameRequest {
     private ResponseRegister responseRegister;
 
     public RequestRegister() {
+        Log.printf("Register request detected");
         responses.add(responseRegister = new ResponseRegister());
     }
 

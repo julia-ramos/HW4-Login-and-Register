@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scenes/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c81dd64-a164-4b47-84c6-03e62beb4ee0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6c81dd64-a164-4b47-84c6-03e62beb4ee0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WoB_Server_Basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WoB_Server_Basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestJoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metadata/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/GameRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/GameRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/GameResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/GameResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/database/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/database/accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/database/accounts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestRegister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/accounts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +86,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\OneDrive\Desktop\CSC631HW4\HW4_Server_Mk_2\src\database" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\julia\OneDrive\Desktop\CSC631HW4\HW4_Server_Mk_2\src\metadata" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\OneDrive\Desktop\CSC631HW4\HW4_Server_Mk_2\src\database" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GameServer">
@@ -198,26 +194,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1617137147147">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="914" height="280" key="GridCell.Tab.0.bottom" timestamp="1617142765176">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720/1920.0.1920.1040@0.0.1218.720" timestamp="1617137147147" />
-    <state width="914" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617135703014" />
-    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1617137147147">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617142765176" />
+    <state width="914" height="280" key="GridCell.Tab.0.center" timestamp="1617142765176">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720/1920.0.1920.1040@0.0.1218.720" timestamp="1617137147147" />
-    <state width="914" height="176" key="GridCell.Tab.0.center/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617135703013" />
-    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1617137147146">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617142765176" />
+    <state width="914" height="280" key="GridCell.Tab.0.left" timestamp="1617142765176">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720/1920.0.1920.1040@0.0.1218.720" timestamp="1617137147146" />
-    <state width="914" height="176" key="GridCell.Tab.0.left/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617135703012" />
-    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1617137147147">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617142765176" />
+    <state width="914" height="280" key="GridCell.Tab.0.right" timestamp="1617142765176">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720/1920.0.1920.1040@0.0.1218.720" timestamp="1617137147147" />
-    <state width="914" height="176" key="GridCell.Tab.0.right/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617135703013" />
+    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1218.720/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617142765176" />
     <state x="2062" y="0" key="SettingsEditor" timestamp="1617135620110">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

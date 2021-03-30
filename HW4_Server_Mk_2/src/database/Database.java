@@ -14,6 +14,8 @@ public class Database {
      * @param password
      */
     public static boolean writeAccountInfo(String userID, String password) {
+        userID = userID.trim();
+        password = password.trim();
         try {
             if (authenticate(userID, password) == true) {
                 System.out.println("This account already exists!");

@@ -132,9 +132,9 @@ public class MainMenu : MonoBehaviour
 		}
 	}
 
-public void OnResponseRegister(ExtendedEventArgs eventArgs)
+	public void OnResponseRegister(ExtendedEventArgs eventArgs)
 	{
-		ResponseLoginEventArgs args = eventArgs as ResponseLoginEventArgs;
+		ResponseRegisterEventArgs args = eventArgs as ResponseRegisterEventArgs;
 		if (args.status == 0)
 		{
 			messageBoxMsg.text = "Registration Successful!";

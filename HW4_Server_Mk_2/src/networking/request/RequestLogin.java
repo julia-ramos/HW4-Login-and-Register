@@ -14,6 +14,7 @@ import database.Database;
 import utility.Log;
 
 import static database.Database.authenticate;
+import static database.Database.writeAccountInfo;
 
 public class RequestLogin extends GameRequest {
 
