@@ -57,4 +57,15 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+*.backup
 
+[Ll]ibrary/
+HW4_Client/Temp/UnityLockfile
+HW4_Client/Library/ArtifactDB
+HW4_Client/Library/CurrentLayout-default.dwlt
+HW4_Client/Library/CurrentLayout-default.dwlt
+HW4_Client/Library/SceneVisibilityState.asset
+HW4_Client/Library/ArtifactDB
+HW4_Client/Library/CurrentLayout-default.dwlt
+HW4_Client/Library/SceneVisibilityState.asset
+HW4_Client/Library/SourceAssetDB
