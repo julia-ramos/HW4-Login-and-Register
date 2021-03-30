@@ -62,6 +62,7 @@ public class MainMenu : MonoBehaviour
 
 		msgQueue.AddCallback(Constants.SMSG_JOIN, OnResponseJoin);
 		msgQueue.AddCallback(Constants.SMSG_LOGIN, OnResponseLogin);
+		msgQueue.AddCallback(Constants.SMSG_REGISTER, OnResponseRegister);
 		msgQueue.AddCallback(Constants.SMSG_LEAVE, OnResponseLeave);
 		msgQueue.AddCallback(Constants.SMSG_SETNAME, OnResponseSetName);
 		msgQueue.AddCallback(Constants.SMSG_READY, OnResponseReady);

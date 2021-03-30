@@ -1,5 +1,3 @@
-ilmi 123
-julia 123
-jess 123
-cameron 123
-julie 123
+sample@mail.com 123
+ilmi@mail.com password
+julia@mail.com 123
